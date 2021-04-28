@@ -19,7 +19,9 @@ search-input:focus,
 input:focus {
     outline: none;
 }
-
+h2{
+    font-weight: normal;
+}
 
 .close-button {
     position: absolute;
@@ -37,12 +39,6 @@ input:focus {
     position: absolute;
     top: 16px;
     left: 258px;
-}
-
-.search-button {
-    position: absolute;
-    top: 14px;
-    left: 285px;
 }
 
 .bottom-nav-wrapper {

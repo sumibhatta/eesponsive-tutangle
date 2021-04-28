@@ -16,10 +16,13 @@
         top: 55px;
         left: 21px;
         z-index: 1;
+        width: 275px;
     }
 
     #hamburger-toggle a:hover {
-        color: #4f7794;
+        color: #ffffff;
+        background-color: #000;
+        padding: 5px 20px;
     }
 
     /* HIding inside checkbox */
@@ -79,8 +82,7 @@
         position: absolute;
         width: 300px;
         margin: -100px 0 0 -50px;
-        padding: 50px;
-        padding-top: 125px;
+        padding: 125px 50px 100% 50px;
         background: #ededed;
         list-style-type: none;
         /* Hide the menu off-screen to the left */
@@ -89,7 +91,9 @@
 
     #menu li {
         padding: 10px 0;
-        font-size: 22px;
+font-size: 17px;
+margin: 0 0 0 17px;
+border-bottom: 1px solid black;
     }
 /* Forgive me for using this, cuz it won't work using other properties... */
     #hamburger-toggle input:checked~ul {
@@ -138,12 +142,8 @@
         margin-right: 20px;
 }
 
-all-entry-title:hover {
-    color: white;
-    background-color: #dfdfdf;
-}
+
     .secondary-nav-wrapper {
-        background-color: #dfdfdf;
         padding: 0px 0 5px 0;
         font-family: sans-serif;
         cursor: pointer;
@@ -151,13 +151,22 @@ all-entry-title:hover {
 
     .tip-top {
         display: inline-block;
-        margin-left: 20px;
     }
 
     .sec-nav-items {
         display: none;
     }
 
+    .all-entry-title{
+       background-color: #7dd8e8; 
+       padding: 7px 13px;
+    }
+    .all-entry-title:hover {
+        color: #000;
+        background-color: #dfdfdf;
+    }
+
+    
     .footer-wrapper {
         height: 50px;
         margin-bottom: 30px;
@@ -192,14 +201,6 @@ all-entry-title:hover {
     .top-nav {
         display: inline-block;
     }
-
-    .search-wrapper {
-        position: absolute;
-        margin-top: 18px;
-    }
-
-
-
     .nav-wrapper li,
     .footer-nav li {
         display: inline-block;
@@ -298,8 +299,17 @@ all-entry-title:hover {
         display: none;
     }
 
-    .search-wrapper {
+    /* .search-wrapper {
         display: none;
+    } */
+
+    .left-corner, .right-corner,.close-button, .search-input>input{
+        display: none;
+    }
+    .search-button {
+        width: 100%;
+        display: table;
+        margin: 13px 282%;
     }
 
     /* Second Top Nav */
@@ -334,7 +344,7 @@ all-entry-title:hover {
     }
 
     .middle-wrapper {
-        width: 960px;
+        width: 809px;
         margin: 30px auto;
     }
 
@@ -376,7 +386,7 @@ all-entry-title:hover {
     .middle-container {
         width: 520px;
         display: inline-block;
-        margin-left: 3%;
+        margin-left: 5%;
     }
 
     .secondary-nav-wrapper{
@@ -391,9 +401,7 @@ all-entry-title:hover {
     }
 
 
-    .right-container {
-        float: right;
-    }
+    
 
     /* Left and Right Container */
 
@@ -402,7 +410,8 @@ all-entry-title:hover {
         float: left;
         position: absolute;
         top: 555px;
-    }
+        margin-left: 16px;
+        }
 
     .footer-wrapper {
         position: absolute;
@@ -423,6 +432,16 @@ all-entry-title:hover {
     /* Second Top Nav */
     .header-bottom-container {
         display: inline-block;
+    }
+
+    .search-wrapper {
+        position: absolute;
+        margin-top: 18px;
+    }
+    .search-button {
+        position: absolute;
+        top: 14px;
+        left: 285px;
     }
 
     .bottom-nav-wrapper {
@@ -518,12 +537,22 @@ all-entry-title:hover {
         display: none;
     }
 
+    .search-wrapper {
+        position: absolute;
+        margin-top: 18px;
+    }
+    .search-button {
+        position: absolute;
+        top: 14px;
+        left: 285px;
+    }
     /* Second Top Nav */
 
     .header-bottom-container {
         display: inline-block;
     }
 
+    
     .bottom-nav-wrapper {
         padding-top: 15px;
     }
