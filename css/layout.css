@@ -17,6 +17,7 @@
         left: 21px;
         z-index: 1;
         width: 275px;
+        cursor: pointer;
     }
 
     #hamburger-toggle a:hover {
@@ -91,6 +92,7 @@
 
     #menu li {
         padding: 10px 0;
+        cursor: pointer;
 font-size: 17px;
 margin: 0 0 0 17px;
 border-bottom: 1px solid black;
@@ -155,6 +157,11 @@ border-bottom: 1px solid black;
 
     .sec-nav-items {
         display: none;
+    }
+
+
+    .sec-nav-items ul li a:hover {
+        background: #7dd8e8;
     }
 
     .all-entry-title{
@@ -225,6 +232,9 @@ border-bottom: 1px solid black;
     .sec-nav-items li a {
         float: left;
         font-size: 14px;
+    }
+    .sec-nav-items ul li a:hover {
+        background: #7dd8e8;
     }
 
     .secondary-nav-wrapper {
@@ -330,6 +340,9 @@ border-bottom: 1px solid black;
         display: inline-block;
     }
 
+    .left-options ul li a:hover, .notifications ul li:hover, .user-nav ul li a:hover {
+        color: #424642;
+    }
     .header-bottom-container li {
         padding-left: 20px;
 
@@ -456,6 +469,9 @@ border-bottom: 1px solid black;
     .left-options {
         display: inline-block;
     }
+    .left-options ul li a:hover,  .notifications ul li:hover, .user-nav ul li a:hover {
+        color: #424642;
+    }
 
     .header-bottom-container li {
         padding-left: 20px;
@@ -565,6 +581,10 @@ border-bottom: 1px solid black;
     .left-options {
         display: inline-block;
     }
+    .left-options ul li a:hover,  .notifications ul li:hover, .user-nav ul li a:hover {
+        color: #424642;
+        cursor: pointer;
+    }
 
     .header-bottom-container li {
         padding-left: 20px;
@@ -640,4 +660,13 @@ border-bottom: 1px solid black;
         padding: 19px 47px;
     }
 
+    .hover a:hover, .recent-search ul li a:hover{
+        color: rgb(46, 45, 45);
+    }
+
+    .right-list ul li:hover{
+        color: rgb(46, 45, 45);
+
+        background-color: #ffffff;
+    }
 }
